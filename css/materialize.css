@@ -4580,10 +4580,13 @@ small {
 
 .card.small {
   height: 300px;
+  margin-right: 7em
 }
 
 .card.medium {
   height: 400px;
+  
+  margin-right: 6em;
 }
 
 .card.large {
