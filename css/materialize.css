@@ -4580,13 +4580,12 @@ small {
 
 .card.small {
   height: 300px;
-  margin-right: 7em
+  margin-right: 7em;
 }
 
 .card.medium {
   height: 400px;
-  
-  margin-right: 6em;
+  margin-right: 7em;
 }
 
 .card.large {
@@ -4597,6 +4596,7 @@ small {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 7em;
 }
 
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
@@ -4629,6 +4629,8 @@ small {
       -ms-flex: 1;
           flex: 1;
   position: relative;
+  
+
 }
 
 .card.horizontal .card-stacked .card-content {
@@ -4648,6 +4650,7 @@ small {
 
 .card .card-image {
   position: relative;
+  
 }
 
 .card .card-image img {

@@ -2,14 +2,38 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    
     <title>MiniTHON</title>
+    <style>
+        div.img {
+            margin: 5px;
+            margin-left: 3.25em;
+            border: 1px solid #ccc;
+            float: left;
+            width: 40em;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     
     <div class="navbar-fixed">
         <nav>
         <div class="nav-wrapper">
-          <a href="http://smartceipts.co.nf" class="brand-logo"><img src="img.png" alt="UHS" style="width:256px;height:64px;"></a>
+          <a class="brand-logo"><img src="img.png" alt="UHS" style="width:256px;height:64px;"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
@@ -21,12 +45,36 @@
         </div>
       </nav>
     </div>
-    <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
-    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
-    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
-    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+    
+    <div class="img">
+      <a target="_blank" href="images/1.jpg">
+        <img src="images/1.jpg" alt="Fjords" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
     </div>
-    <script>$('.carousel.carousel-slider').carousel({full_width: true});</script>
+
+    <div class="img">
+      <a target="_blank" href="images/2.jpg">
+        <img src="images/2.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="images/3.jpg">
+        <img src="images/3.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="images/4.jpg">
+        <img src="images/4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+    
+    
+    
     </body>
 </html>
